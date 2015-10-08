@@ -1,54 +1,90 @@
-.body{
-	max-width: 50%;
-	margin-left: auto;
-	margin-right: auto;
+body {
 	background-color: #212141;
+	font-family: "Times", "Times New Roman", serif;
+	font-size: 18px;
+    -webkit-font-feature-settings: "liga" on;
+	font-feature-settings: "liga" on;
+	hyphens: auto;
+	-webkit-hyphens: auto;
+	-moz-hyphens: auto;
+	-ms-hyphens: auto;
 }
 
-.textContainer{
-	background-color: #FFFFFF;
-	padding-left: 25px;
-	border-radius: 15px;
-	padding: 5px 25px;
-	margin: 15px;
+img {
+	display: block;
 }
 
-.headerBox{
-	text-decoration: underline;
-	font-weight: bold;
+header {
+	width: 750px;
+	margin: 1em auto 0;
+	overflow: auto;
 }
 
-.textBox{
-	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+#content {
+	width: calc(750px - 2em);
+	margin: 0 auto 1em;
+	background-color: #f8f8f8;
+	color: #222;
+	padding: 0 1em;
+	overflow: auto;
+	line-height: 1.4;
 }
 
 .pictureBox{
-	margin-left: auto;
-	margin-right: auto;
+	margin: 1em auto;
 	max-width: 100%;
-	background-color: #FFFFFF;
 	max-height: auto;
 }
 
 h1{
-	font-size: xx-large;
-	text-decoration: underline;
-	font-weight: bold;
+	font-size: 2.5em;
+	text-align: center;
+	font-style: italic;
 }
 
 h2{
-	font-size: x-large;
+	font-size: 2em;
+	text-transform: uppercase;
+	text-align: center;
 }
 
 h3{
-	font-size: large;
+	font-size: 1.2em;
+	font-style: italic;
 }
 
 h4{
-	font-size: large;
-	text-decoration: underline;
-	font-weight: bold;
+	font-size: 1.1em;
 	text-align: center;
+}
+
+p {
+	text-indent: 2em;
+}
+
+sup {
+	vertical-align: top;
+	position: relative;
+	top: 0;
+	text-transform: uppercase;
+	font-size: 0.6em;
+}
+
+.outer {
+	list-style: none;
+	padding: 0;
+}
+
+.outer > li {
+	font-weight: bold;
+	margin-top: 0.5em;
+}
+
+.outer > ul {
+	list-style: none;
+	padding-left: 2em;
+}
+
+.school {
+	font-style: italic;
 }
